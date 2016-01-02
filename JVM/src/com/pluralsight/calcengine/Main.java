@@ -7,7 +7,7 @@ public class Main {
 //        useCalculatorBase();
 
         String[] statements = {
-                "add 11.0",             // Error: incorrect number of values
+                "add 111.0",             // Error: incorrect number of values
                 "add xx 25.0",         // Error: non-numeric data
                 "addX 0.0 0.0",        // Error: invalid command
                 "divide 100.0 50.0",   // 100.0 / 50.0 = 2.0
